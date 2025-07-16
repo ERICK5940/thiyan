@@ -1,0 +1,29 @@
+h3{
+    background-color: coral;
+    border-radius: 20px;
+    width: 300px;
+}
+h1{
+    background: linear-gradient(to right, #00c6ff, #8e2de2, #ff0080);
+    width: 650;
+    border-radius: 30px;
+    color: blueviolet;
+    
+}
+hr{
+    height: 2px;
+    background-color: rebeccapurple;
+}
+h2{
+    background-color:lawngreen;
+    width: 80;
+    border-radius: 14px;
+    
+}
+input{
+    border-radius: 23px;
+    width: 250px;
+    height: 35;
+    border-color: blueviolet;
+    margin-bottom: 10px;
+}

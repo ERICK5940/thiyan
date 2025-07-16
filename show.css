@@ -1,0 +1,54 @@
+/* Button styling */
+button {
+    border: none;
+    outline: none;
+    padding: 4px 20px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 80px;
+  }
+  
+  /* Task list styling */
+  ul li {
+    list-style: none;
+    font-size: 18px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  /* Checkbox before each task */
+  ul li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(./unchecked.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+  }
+  
+  /* Style for completed (checked) tasks */
+  ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+  }
+  
+  /* Checked image */
+  ul li.checked::before {
+    background-image: url(./checked.jpg);
+  }
+  li span {
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+  
